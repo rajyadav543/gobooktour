@@ -1,0 +1,394 @@
+@media only screen and (min-width:200px) and (max-width:575px){
+
+
+.header-inner{
+	padding: 20px;
+	position: relative;
+}
+.header-inner span{
+	display: block;
+	position: absolute;
+	right: 20px;
+	font-size: 20px;
+	background-color: lightgrey;
+	padding: 10px;
+	line-height: 25px;
+	border: 1px solid #ccc;
+
+
+}
+.header-left{
+	flex-basis: 60%;
+}
+.header-right-search{
+	display: none;
+}
+.header-right{
+	flex-basis: 85%;
+	position: absolute;
+	width: 90%;
+	top: 0px;
+	left: -100%;
+	height: 100vh;
+	background-color: rgb(225, 225, 231);
+	transition: 0.3s;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: flex-start;
+	position: fixed;
+	z-index: 999;
+
+
+}
+.header-right ul{
+	padding-top: 10px;
+	justify-content: space-between;
+	gap: 50px;
+	flex-direction: column;
+	align-items: flex-start;
+
+}
+.header-right ul li{
+	width: 100%;
+	padding-bottom: 10px;
+	
+}
+
+
+
+.header-right img{
+	display: block;
+	padding: 30px 20px 60px 20px;
+}
+
+.sub-menu{
+	position: absolute;
+	margin-left: 20px;
+	padding : 10px;
+	top: 100%;
+	z-index: 9;
+	
+}
+.sub-menu li{
+	padding: 5px;
+}
+.mega-menu{
+	height: auto;
+	position: absolute;
+	top: 22%;
+	left: 0;
+	margin: 5px 20px;
+	z-index: 99;
+}	
+.mega-menu-items{
+	gap: 0px;
+
+}
+.mega-menu-items>ul>li{
+	padding: 2px;
+
+}
+.section1{
+	padding: 20px;
+	flex-direction: column;
+	gap: 20px;
+}
+.search input{
+	width : 200px;
+}
+.section2{
+	padding: 20px;
+	flex-direction: column;
+	gap: 20px;
+}
+.section2-left{
+	flex-basis: 30%;
+	padding: 10px;
+	align-items: flex-start;
+}
+
+.india{
+	padding: 20px;
+}
+.india-list{
+	flex-direction: column;
+	gap: 10px;
+}
+.india-list-left img{
+	display: block;	
+}
+
+.india-list-right{
+	flex-direction: column;
+	gap: 10px;
+	
+}
+.india-list-right-items img{
+	width: 100%;
+}
+.international{
+	padding: 20px;
+}
+
+.international-list{
+	flex-direction: column;
+
+}
+
+.top-pick-inner{
+	padding: 20px;
+}
+.top-pick-list{
+	flex-direction: column;
+}
+
+.best-seller{
+	padding: 20px;
+}
+.best-seller-list{
+	flex-direction: column;
+	
+}
+.reviews-inner{
+	padding: 20px;
+}
+.reviews-inner img{
+	width: 100px;
+}
+
+.blog-inner{
+	padding: 20px;
+
+}
+.blog-list{
+	flex-direction: column;
+}
+
+.faq{
+	padding: 20px;
+}
+
+.subscribe-list{
+	padding: 20px;
+}
+
+.subscribe-items{
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+	align-items: center;
+}
+
+
+.subscribe-items input{
+	width: 300px;
+}
+
+.footer-inner{
+	padding: 30px;
+	flex-direction: column;
+	gap: 30px;
+}
+
+.l-r-section1{
+	padding: 20px;
+	flex-direction: column;
+}
+
+.l-r-section1-left-row1-buttons button{
+	margin: 5px;
+
+}
+
+.enquire-button button{
+	position: fixed;
+	bottom: 10px;
+	left: 0px;
+
+}
+
+.packages-list{
+	flex-direction: column;
+	gap: 20px;
+}
+
+.contact-list{
+	padding: 20px;
+	flex-direction: column;
+	gap: 30px;
+}
+
+.contact-form{
+	margin: 20px;
+}
+.contact-form-row{
+	flex-direction: column;
+	gap: 20px;
+}
+.contact-form-row select{
+	width: 100%;
+}
+
+.india-tour{
+	padding: 20px;
+}
+
+.india-tour-package-list{
+	padding: 20px;
+	flex-direction: column;
+}
+
+.about-us{
+	padding: 30px;
+}
+
+.about-us-rights{
+	padding: 20px;
+	flex-direction: column;
+	gap: 20px;
+	justify-content: center;
+
+}
+
+}
+@media only screen and (min-width:576px) and (max-width:991px){
+
+.header-right-search{
+	display: none;
+}
+.section1{
+	padding: 20px;
+	
+}
+
+.search input{
+	width : 400px;
+}
+.section2{
+	padding: 20px;
+}
+.section2-left{
+	flex-basis: 30%;
+	padding: 10px;
+	align-items: flex-start;
+}
+.india{
+	padding: 20px;
+}
+.india-list-left{
+	flex-basis: 40%;
+}
+.india-list-right{
+	justify-content: space-evenly;
+	gap: 10px;
+}
+.india-list-right-items img{
+	width: 200px;
+	height: 200px;
+
+}
+.international{
+	padding: 20px;
+}
+.international-list-items{
+	flex-basis: 30%;
+}
+.top-pick-inner{
+	padding: 20px;
+}
+
+.top-pick-details button{
+	padding: 5px;
+
+	
+}
+.reviews-inner{
+	padding: 20px;
+}
+
+
+.blog-inner{
+	padding: 20px;
+
+}
+
+
+.faq{
+	padding: 20px;
+}
+
+.subscribe-list{
+	padding: 20px;
+}
+
+.subscribe-items{
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+	align-items: center;
+}
+
+
+.subscribe-items input{
+	width: 350px;
+}
+
+.footer-inner{
+	padding: 30px;
+	
+}
+.l-r-section1{
+	padding: 20px;
+	flex-direction: column;
+}
+.packages{
+	padding: 20px;
+}
+
+
+.contact-list{
+	padding: 20px;
+	
+}
+
+.contact-form{
+	margin: 20px;
+}
+
+.india-tour{
+	padding: 20px;
+}
+
+.india-tour-package-list{
+	padding: 20px;
+	gap: 10px;
+	
+	
+}
+
+
+.about-us{
+	padding: 30px;
+}
+
+.about-us-rights{
+	padding: 20px;
+	font-size: 12px;
+		
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
